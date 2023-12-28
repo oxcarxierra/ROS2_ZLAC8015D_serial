@@ -1,4 +1,4 @@
-#include "motor_driver/zlac8015.h"
+#include "zlac8015d.h"
 
 void ZLAC::begin(std::string port, int baudrate, uint8_t ID)
 {
@@ -11,7 +11,7 @@ void ZLAC::begin(std::string port, int baudrate, uint8_t ID)
 
     _serial.open();
     _serial.flushInput();
-    printf("%c, %d: SERIAL OK!", port, ID);
+    printf("%d: SERIAL OK!", ID);
 }
 
 uint8_t ZLAC::set_rpm(int16_t rpm, std::string side)

@@ -62,6 +62,6 @@ static inline unsigned short crc16(const unsigned char *data, unsigned short len
         wCRCWord ^= crc16_table[nTemp];
     }
     return wCRCWord;
-};
+}
 
 #endif

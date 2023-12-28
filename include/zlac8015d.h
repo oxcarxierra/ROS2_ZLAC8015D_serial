@@ -1,5 +1,5 @@
-#ifndef ZLAC8015
-#define ZLAC8015
+#ifndef ZLAC8015D
+#define ZLAC8015D
 
 #include <string>
 #include <iostream>

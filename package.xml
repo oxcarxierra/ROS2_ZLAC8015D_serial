@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ros2_ZLAC8015D_serial</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <name>zlac8015d_serial</name>
+  <version>0.0.1</version>
+  <description>ROS2 package for RS485 communication with ZLAC8015D driver</description>
   <maintainer email="oxcarxierra@gmail.com">Seung Seok Oh</maintainer>
-  <license>BSD-3-Clause</license>
-
+  <license>MIT</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
